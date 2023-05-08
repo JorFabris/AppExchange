@@ -12,5 +12,5 @@ export default {
   fontMin: 12,
   eleven: 11,
   ten: 10,
-  fontTabHome: 9,
+  fontTabHome: 11,
 };

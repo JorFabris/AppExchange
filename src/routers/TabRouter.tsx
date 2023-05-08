@@ -4,6 +4,7 @@ import Tabs from './Options';
 import { Text } from 'react-native';
 import Fonts from '../assets/Fonts';
 import FontSize from '../assets/FontSize';
+import { COLORS_DARK } from '../assets/Colors';
 
 const Tab = createBottomTabNavigator();
 
@@ -16,6 +17,8 @@ function TabRouter() {
             name={cTabs.name}
             component={cTabs.screen}
             options={{
+              tabBarInactiveBackgroundColor: COLORS_DARK.screenColor,
+              tabBarActiveBackgroundColor: COLORS_DARK.screenColor,
               tabBarIcon: ({ color, focused, size }) => (
                 <Icon
                   name={focused ? cTabs.iconSelected : cTabs.iconDefault}
@@ -28,6 +31,7 @@ function TabRouter() {
                   style={{
                     fontFamily: Fonts.REGULAR,
                     fontSize: FontSize.fontTabHome,
+                    color: COLORS_DARK.textColor,
                   }}>
                   {cTabs.title}
                 </Text>
