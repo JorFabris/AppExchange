@@ -14,6 +14,13 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-AppExchange-AppExchangeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AppExchange-AppExchangeTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AC5C51742A096C5100AEE567 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC5C516D2A096C5000AEE567 /* Mulish-Black.ttf */; };
+		AC5C51752A096C5100AEE567 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC5C516E2A096C5100AEE567 /* Mulish-SemiBold.ttf */; };
+		AC5C51762A096C5100AEE567 /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC5C516F2A096C5100AEE567 /* Mulish-Medium.ttf */; };
+		AC5C51772A096C5100AEE567 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC5C51702A096C5100AEE567 /* Mulish-Regular.ttf */; };
+		AC5C51782A096C5100AEE567 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC5C51712A096C5100AEE567 /* Mulish-Bold.ttf */; };
+		AC5C51792A096C5100AEE567 /* Mulish-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC5C51722A096C5100AEE567 /* Mulish-Light.ttf */; };
+		AC5C517A2A096C5100AEE567 /* Mulish-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC5C51732A096C5100AEE567 /* Mulish-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,13 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-AppExchange.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppExchange.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AppExchange/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AppExchange-AppExchangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppExchange-AppExchangeTests.release.xcconfig"; path = "Target Support Files/Pods-AppExchange-AppExchangeTests/Pods-AppExchange-AppExchangeTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC5C516D2A096C5000AEE567 /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Black.ttf"; path = "../src/assets/fonts/Mulish-Black.ttf"; sourceTree = "<group>"; };
+		AC5C516E2A096C5100AEE567 /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-SemiBold.ttf"; path = "../src/assets/fonts/Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
+		AC5C516F2A096C5100AEE567 /* Mulish-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Medium.ttf"; path = "../src/assets/fonts/Mulish-Medium.ttf"; sourceTree = "<group>"; };
+		AC5C51702A096C5100AEE567 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Regular.ttf"; path = "../src/assets/fonts/Mulish-Regular.ttf"; sourceTree = "<group>"; };
+		AC5C51712A096C5100AEE567 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Bold.ttf"; path = "../src/assets/fonts/Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		AC5C51722A096C5100AEE567 /* Mulish-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Light.ttf"; path = "../src/assets/fonts/Mulish-Light.ttf"; sourceTree = "<group>"; };
+		AC5C51732A096C5100AEE567 /* Mulish-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Italic.ttf"; path = "../src/assets/fonts/Mulish-Italic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -116,6 +130,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				AC5C516D2A096C5000AEE567 /* Mulish-Black.ttf */,
+				AC5C51712A096C5100AEE567 /* Mulish-Bold.ttf */,
+				AC5C51732A096C5100AEE567 /* Mulish-Italic.ttf */,
+				AC5C51722A096C5100AEE567 /* Mulish-Light.ttf */,
+				AC5C516F2A096C5100AEE567 /* Mulish-Medium.ttf */,
+				AC5C51702A096C5100AEE567 /* Mulish-Regular.ttf */,
+				AC5C516E2A096C5100AEE567 /* Mulish-SemiBold.ttf */,
 				13B07FAE1A68108700A75B9A /* AppExchange */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* AppExchangeTests */,
@@ -200,7 +221,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -242,6 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5C51742A096C5100AEE567 /* Mulish-Black.ttf in Resources */,
+				AC5C51752A096C5100AEE567 /* Mulish-SemiBold.ttf in Resources */,
+				AC5C51762A096C5100AEE567 /* Mulish-Medium.ttf in Resources */,
+				AC5C51772A096C5100AEE567 /* Mulish-Regular.ttf in Resources */,
+				AC5C51782A096C5100AEE567 /* Mulish-Bold.ttf in Resources */,
+				AC5C51792A096C5100AEE567 /* Mulish-Light.ttf in Resources */,
+				AC5C517A2A096C5100AEE567 /* Mulish-Italic.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -432,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-AppExchange-AppExchangeTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -459,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-AppExchange-AppExchangeTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = AppExchangeTests/Info.plist;
