@@ -10,40 +10,34 @@ import SettingsScreen from '../screens/SettingsScreen/SettingsScreen';
 
 const Tabs = [
   {
-    title: getText(Enumi18n.ES).tabs.home.name,
+    title: getText(Enumi18n.EN).tabs.home.name,
     iconDefault: 'grid-outline',
     iconSelected: 'grid',
     colorSelected: COLORS_DARK.mainColor,
     defaultColor: COLORS_DARK.mainLightColor,
     name: Routes.HOME_SCREEN,
     screen: HomeScreen,
+    key: 'Tab-1',
   },
   {
-    title: getText(Enumi18n.ES).tabs.news.name,
+    title: getText(Enumi18n.EN).tabs.news.name,
     iconDefault: 'newspaper-outline',
     iconSelected: 'newspaper',
     colorSelected: COLORS_DARK.mainColor,
     defaultColor: COLORS_DARK.mainLightColor,
     name: Routes.NEWS_SCREEN,
     screen: NewsScreen,
+    key: 'Tab-2',
   },
   {
-    title: getText(Enumi18n.ES).tabs.favorites.name,
-    iconDefault: 'ios-heart-outline',
-    iconSelected: 'ios-heart',
-    colorSelected: COLORS_DARK.mainColor,
-    defaultColor: COLORS_DARK.mainLightColor,
-    name: Routes.FAVORITES_SCREEN,
-    screen: FavoritesScreen,
-  },
-  {
-    title: getText(Enumi18n.ES).tabs.settings.name,
+    title: getText(Enumi18n.EN).tabs.settings.name,
     iconDefault: 'ios-settings-outline',
     iconSelected: 'ios-settings',
     colorSelected: COLORS_DARK.mainColor,
     defaultColor: COLORS_DARK.mainLightColor,
     name: Routes.SETTINGS_SCREEN,
     screen: SettingsScreen,
+    key: 'Tab-3',
   },
 ];
 

@@ -10,10 +10,14 @@ const Tab = createBottomTabNavigator();
 
 function TabRouter() {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}>
       {Tabs.map(cTabs => {
         return (
           <Tab.Screen
+            key={cTabs.key}
             name={cTabs.name}
             component={cTabs.screen}
             options={{
